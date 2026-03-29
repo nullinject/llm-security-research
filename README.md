@@ -13,6 +13,7 @@
 | 01 | [DeepSeek 伪造 API 上下文 Prompt Injection 攻击](./DeepSeek-Prompt-Injection.md) | DeepSeek Chat | Prompt Injection / Jailbreak | 🟠 高危 |
 | 02 | [OpenClaw 恶意 Skill 供应链攻击：无沙箱 Shell 执行与配置窃取](./OpenClaw-Skill-Supply-Chain-Attack.md) | OpenClaw Desktop | Supply Chain / Arbitrary Shell Execution | 🔴 严重 |
 | 03 | [RAG 文档投毒间接注入攻击：向量检索管道劫持与 Agent 工具调用篡改](./RAG-Indirect-Prompt-Injection.md) | LlamaIndex / LangChain RAG 系统 | Indirect Prompt Injection / RAG Poisoning | 🔴 严重 |
+| 04 | [一次医疗影像业务授权测试的经验复盘](./Medical-Imaging-Assessment-Notes.md) | Medical imaging platform | IDOR / Sensitive Data Exposure / Chained Asset Abuse | 🔴 严重 |
 
 ---
 
