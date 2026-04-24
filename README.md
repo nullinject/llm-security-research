@@ -24,7 +24,7 @@
 | LLM01:2025 Prompt Injection | [DeepSeek 案例](./DeepSeek-Prompt-Injection.md) · [RAG 案例](./RAG-Indirect-Prompt-Injection.md) |
 | LLM02:2025 Sensitive Information Disclosure | [RAG 案例](./RAG-Indirect-Prompt-Injection.md) |
 | LLM03:2025 Supply Chain Vulnerabilities | [OpenClaw 案例](./OpenClaw-Skill-Supply-Chain-Attack.md) · [RAG 案例](./RAG-Indirect-Prompt-Injection.md)（数据源投毒）|
-| LLM06:2025 Excessive Agency | OpenClaw 案例（次要）· RAG 案例（Agent 工具调用劫持）|
+| LLM06:2025 Excessive Agency | [OpenClaw 案例](./OpenClaw-Skill-Supply-Chain-Attack.md)（次要）· [RAG 案例](./RAG-Indirect-Prompt-Injection.md)（Agent 工具调用劫持）|
 | LLM08:2025 Vector and Embedding Weaknesses | [RAG 案例](./RAG-Indirect-Prompt-Injection.md) |
 
 ---
