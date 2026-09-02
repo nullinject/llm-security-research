@@ -14,6 +14,7 @@
 | 02 | [OpenClaw 恶意 Skill 供应链攻击：无沙箱 Shell 执行与配置窃取](./OpenClaw-Skill-Supply-Chain-Attack.md) | OpenClaw Desktop | Supply Chain / Arbitrary Shell Execution | 🔴 严重 |
 | 03 | [RAG 文档投毒间接注入攻击：向量检索管道劫持与 Agent 工具调用篡改](./RAG-Indirect-Prompt-Injection.md) | LlamaIndex / LangChain RAG 系统 | Indirect Prompt Injection / RAG Poisoning | 🔴 严重 |
 | 04 | [一次医疗影像业务授权测试的经验复盘](./Medical-Imaging-Assessment-Notes.md) | Medical imaging platform | IDOR / Sensitive Data Exposure / Chained Asset Abuse | 🔴 严重 |
+| 05 | [不是系统入侵：三组 DeepSeek 对话中的角色诱导、虚构证据与安全边界漂移](./DeepSeek-Role-Induction-and-Evidence-Fabrication.md) | DeepSeek Chat | Role Induction / Misinformation / Safety Boundary Drift | 🟡 中等（接入自动化系统后可能放大） |
 
 ---
 
@@ -21,11 +22,13 @@
 
 | OWASP LLM Top Ten | 对应案例 |
 |-------------------|----------|
-| LLM01:2025 Prompt Injection | [DeepSeek 案例](./DeepSeek-Prompt-Injection.md) · [RAG 案例](./RAG-Indirect-Prompt-Injection.md) |
+| LLM01:2025 Prompt Injection | [DeepSeek API 上下文案例](./DeepSeek-Prompt-Injection.md) · [RAG 案例](./RAG-Indirect-Prompt-Injection.md) · [DeepSeek 角色诱导对比研究](./DeepSeek-Role-Induction-and-Evidence-Fabrication.md) |
 | LLM02:2025 Sensitive Information Disclosure | [RAG 案例](./RAG-Indirect-Prompt-Injection.md) |
-| LLM03:2025 Supply Chain Vulnerabilities | [OpenClaw 案例](./OpenClaw-Skill-Supply-Chain-Attack.md) · [RAG 案例](./RAG-Indirect-Prompt-Injection.md)（数据源投毒）|
+| LLM03:2025 Supply Chain Vulnerabilities | [OpenClaw 案例](./OpenClaw-Skill-Supply-Chain-Attack.md) |
+| LLM04:2025 Data and Model Poisoning | [RAG 案例](./RAG-Indirect-Prompt-Injection.md)（数据源投毒） |
 | LLM06:2025 Excessive Agency | [OpenClaw 案例](./OpenClaw-Skill-Supply-Chain-Attack.md)（次要）· [RAG 案例](./RAG-Indirect-Prompt-Injection.md)（Agent 工具调用劫持）|
 | LLM08:2025 Vector and Embedding Weaknesses | [RAG 案例](./RAG-Indirect-Prompt-Injection.md) |
+| LLM09:2025 Misinformation | [DeepSeek 角色诱导对比研究](./DeepSeek-Role-Induction-and-Evidence-Fabrication.md)（虚构日志与伪验证状态） |
 
 ---
 
